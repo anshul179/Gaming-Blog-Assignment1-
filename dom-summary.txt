@@ -1,0 +1,5 @@
+After inspecting the DOM structure of my index.html file for the "PUBG Battlegrounds Guide" using browser DevTools, I, Anshul, identified several key elements. The main elements include <html>, <head>, <body>, <header>, <nav>, <main>, <article>, <section>, <aside>, <p>, <a>, and <img>. These elements form the backbone of the page, with the <header> and <main> elements as direct children of the <body> element.
+
+The nesting structure is hierarchical: <article> is nested within <main>, containing a <header> and multiple <p> tags, while a <section> with an <aside> is nested inside <article> for the tip. The <nav> is within <header>, and hyperlinks and images are placed in <div> containers.
+
+Attributes like lang="en" on <html>, src on <img>, and href on <a> appear as key-value pairs. Nodes include both elements (e.g., <p>) and their text content (e.g., "Tip: The red zones are great for avoiding early encounters!"), visible in the DOM tree.
